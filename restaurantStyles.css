@@ -1,8 +1,15 @@
 .header { color: black; 
         text-align: center;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .footer {color: black; 
     text-align: center;
     
+}
+
+#content,#navigation, #summary{
+    padding: 0px;
+    height: 100px;
+    background-color: bisque;
 }
