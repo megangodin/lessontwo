@@ -2,8 +2,16 @@
 <html>
         <head>
                 <title>Contact Us</title>
+                <link href="restaurantStyles.css" 
+                rel="stylesheet" 
+                type="text/css" />
+            <style type="text/css">
+                #fullnamelabel, #emaillabel, #phonelabel, #reason, #additionalinformation, #beenherebefore, #contactdays, #submit {text-align: center}
+            
+            
+            </style>
             </head>
-                <h1 style="text-align:center;">Hattie's Fried Chicken</h1>
+            <h1 class="header">Hattie's Fried Chicken</h1>
                 <hr>
                 <a href="restauranthome.html">Home</a>
                 <a href="menu.html">Menu</a>
@@ -11,19 +19,19 @@
                 <hr>
     <body>
 <form action = "#" method="POST">
-        <div>
+        <div id="fullnamelabel">
                 <label id = "fullnamelabel" form="fullName">Name: </label>
-                <input id = "full name" name = "fullName" type="text"/>
+                <input id = "fullname" name = "fullName" type="text"/>
             </div><br>
-        <div>
+        <div id="emaillabel">
                 <label id = "emaillabel" form="email">Email: </label>
                 <input id = "email" name = "email" type="text"/>
             </div><br>
-            <div>
+            <div id="phonelabel">
                     <label id = "phonelabel" form="phone">Phone: </label>
                     <input id = "phone" name = "phone" type="text"/>
                 </div><br>
-             <div>
+             <div id="reason">
                 <label id ="reason" name="reason" value="reason">Reason for Inquiry:</label>
                 <select name="Reason:">
                         <option value="Value1">Catering</option>
@@ -32,16 +40,16 @@
                         <option value="Value4">Other</option>
                       </select>
             </div><br>
-                <div>
+                <div id="additionalinformation">
                 <label id = "additionalinformation" form="additionalinformation">Additional Information:</label>
                 <textarea name="additionalinformation"></textarea><br/>
                 </div> <br>
 
-                <div>
+                <div id="beenherebefore">
                 <label id ="beenherebefore" form="beenherebefore">Have you been to the restaurant? </label>
                 <input type="radio" name="No" value="No" checked/>No
-                <input type="radio" name="Yes" value="Yes"/>Yes<br/><br>
-          
+                <input type="radio" name="Yes" value="Yes"/>Yes<br/><br></div>
+          <div id="contactdays"
                 <label id="contactdays" form"contactdays">Best days to contact you:</label>    
                 <input type="checkbox" name="contactdays" value="contactdays">M
                 <input type="checkbox" name="contactdays" value="contactdays">T
@@ -51,12 +59,12 @@
 
             </div><br>
             
-            <div>
+            <div id="submit">
                 <input type="submit" value="Send Request"> <br/>
             </div>    
 <br>
 <br>
-            <footer>
+            <footer class ="footer">
                 <hr>
                     <h5 style="text-align:center;">45 PHILA STREET, SARATOGA SPRINGS, NY 12866 </br>
              1-800-455-6666
