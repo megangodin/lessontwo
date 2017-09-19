@@ -9,25 +9,43 @@
     <style>
             table, th, td {border:1px solid black;
             }
+            #albumtitle, #website, #releasedate, #bandlabel, #songs {text-align: center}
         </style>
-</head>
-            <body>
-                <img src="images/bruno.jpg"/>
-                <h3>XXIVk Magic</h3>
-                <a href="www.brunomars.com">Bruno Mars</a>
-                <h5>Release Date</h5>
-                <hr>
+        
 
-                <h3>Band Members and Producers</h3>
-                <ul style="color:red;font-weight:bold;">
+        <div style="background-image:url(images/bruno.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:250px,100px;
+        height:300px"> 
+            </div>
+</head>
+           <body> 
+                <div id="albumtitle">
+                <h3 style= font-family:Helvetica Neue, Helvetica, Arial, sans-serif;>XXIVk Magic</h3>
+                </div>
+                <div id ="website">
+                <a href="www.brunomars.com">Bruno Mars</a>
+                </div>
+                <div id="releasedate">
+                <h5>October 7, 2016</h5>
+                </div>
+                <hr>
+                <div id="bandlabel">
+                <h3 style= font-family:Helvetica Neue, Helvetica, Arial, sans-serif;>Band Members and Producers</h3>
+                </div>
+                <div id="memberslist">
+                <ul style="font-style:italic; font-weight:bold;">
                     <li>Bruno Mars - Guitar, Singer, Performer</li>
                     <li>Eric Hernandez - Drummer</li>
                     <li>Philip Lawrence - Vocalist</li>
                     <li>Jamareo Artis - Bass Guitar</li>
                 </ul>
+                 </div>   
+           
+               <div id="songs">
+                <table id ="songs", align="center">
                     
-            <body>
-                <table>
                     <caption>Tracks</caption>
                             <tr> <tr bgcolor="grey">
                                     
@@ -53,6 +71,7 @@
                                 <td>4:10</td>
                             </tr>
                     </table>    
+                </div>
 
 
             </body>
