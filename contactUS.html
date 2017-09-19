@@ -1,52 +1,65 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Contact Us</title>
-    </head>
+        <head>
+                <title>Contact Us</title>
+            </head>
+                <h1 style="text-align:center;">Hattie's Fried Chicken</h1>
+                <hr>
+                <a href="restauranthome.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="contactUS.html">Contact Us</a>
+                <hr>
     <body>
 <form action = "#" method="POST">
         <div>
-            <label id = "firstnamelabel" form="firstName">First Name: </label>
-            <input id = "first name" name = "firstName" type="text"/>
-        </div>
+                <label id = "fullnamelabel" form="fullName">Name: </label>
+                <input id = "full name" name = "fullName" type="text"/>
+            </div><br>
         <div>
-                <label id = "lastnamelabel" form="lastName">Last Name: </label>
-                <input id = "last name" name = "lastName" type="text"/>
-            </div>
-        <div>
-                <label id = "emaillabel" form="email">Email Address: </label>
+                <label id = "emaillabel" form="email">Email: </label>
                 <input id = "email" name = "email" type="text"/>
-            </div>
+            </div><br>
             <div>
-                <label id ="typeoflicense" form="typeoflicense">Type of License:</label>
-                <input type="radio" name="Business" value="Business" checked/>Business
-                <input type="radio" name="Personal" value="Personal"/>Personal<br/>
-            <div>
-                <label id ="reason" name="reason" value="reason">Reason:</label>
+                    <label id = "phonelabel" form="phone">Phone: </label>
+                    <input id = "phone" name = "phone" type="text"/>
+                </div><br>
+             <div>
+                <label id ="reason" name="reason" value="reason">Reason for Inquiry:</label>
                 <select name="Reason:">
-                        <option value="Value1">Select a Reason</option>
-                        <option value="Value2">Software Support</option>
-                        <option value="Value3">Hardware Support</option>
-                        <option value="Value4">Information Request</option>
+                        <option value="Value1">Catering</option>
+                        <option value="Value2">Private Party</option>
+                        <option value="Value3">Feedback</option>
+                        <option value="Value4">Other</option>
                       </select>
-            </div>
-            <div>
+            </div><br>
+                <div>
                 <label id = "additionalinformation" form="additionalinformation">Additional Information:</label>
                 <textarea name="additionalinformation"></textarea><br/>
-            <div>
-                <input type="checkbox" name="termsandconditions" value="termsandconditions">I have read the terms of service.<br/>
+                </div> <br>
 
-            </div>
+                <div>
+                <label id ="beenherebefore" form="beenherebefore">Have you been to the restaurant? </label>
+                <input type="radio" name="No" value="No" checked/>No
+                <input type="radio" name="Yes" value="Yes"/>Yes<br/><br>
+          
+                <label id="contactdays" form"contactdays">Best days to contact you:</label>    
+                <input type="checkbox" name="contactdays" value="contactdays">M
+                <input type="checkbox" name="contactdays" value="contactdays">T
+                <input type="checkbox" name="contactdays" value="contactdays">W
+                <input type="checkbox" name="contactdays" value="contactdays">Th
+                <input type="checkbox" name="contactdays" value="contactdays">F
+
+            </div><br>
             
             <div>
                 <input type="submit" value="Send Request"> <br/>
             </div>    
-
-            </div>
-        
-
-
-
-            </div>
+<br>
+<br>
+            <footer>
+                <hr>
+                    <h5 style="text-align:center;">45 PHILA STREET, SARATOGA SPRINGS, NY 12866 </br>
+             1-800-455-6666
+             </footer>
         </form>
     </body>
