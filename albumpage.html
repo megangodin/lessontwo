@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="albumStyles.css"    
         rel="stylesheet" 
         type="text/css" />
@@ -11,9 +13,9 @@
             }
            
             table, td {font-style: italic;
-                       background-color:#ffef99};
+                        };
 
-            #albumtitle, #website, #releasedate, #bandlabel, #songs {text-align: center}
+            #albumtitle, #website, #releasedate, #bandlabel {text-align: center}
             a {
                 font-family: monospace;
                 text-decoration: none;
@@ -41,12 +43,8 @@
     
     </style>
         
+        <div class ="ratio img-responsive img-circle" style="background-image:url(images/bruno.jpg);">
 
-        <div style="background-image:url(images/bruno.jpg);
-        background-repeat:no-repeat;
-        background-position:center;
-        background-size:250px,100px;
-        height:300px"> 
             </div>
 </head>
            <body> 
@@ -70,18 +68,18 @@
                     <li>Philip Lawrence - Vocalist</li>
                     <li>Jamareo Artis - Bass Guitar</li>
                 </ul>
-                 </div>   
-           
-               <div id="songs">
-                <table id ="songs", align="center">
-                    
+                 </div>  
+               <div id="songs"> <div class ="table-responsive">
+                <table class= "table table-responsive table-striped" align="center" id ="songs"> 
+                    <thead>
                     <caption>Tracks</caption>
-                            <tr> <tr bgcolor="grey">
-                                    
+                            <tr> <tr bgcolor="grey">     
                                 <th>Track #</th>
                                 <th>Track Title</th>
                                 <th>Track Length</th>
                             </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>1</td>
                                 <td>24K Magic</td>
@@ -99,6 +97,7 @@
                                 <td>Calling all my lovelies</td>
                                 <td>4:10</td>
                             </tr>
+                        </tbody>
                     </table>    
                 </div>
 
