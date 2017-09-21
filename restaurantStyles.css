@@ -76,6 +76,16 @@ span.glyphicon-home {font-size: 1.2em;
     font-family:'Glyphicons Halflings';
 }
 
-.nobr {
-    white-space: nowrap;
+#newlocal { max-width:100%;
+    height:225px;
+}
+#seasonalmenu { max-width:100%;
+    height:225px;
+
+}#drinkofthemonth { max-width:100%;
+    height:225px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }

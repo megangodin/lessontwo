@@ -18,7 +18,7 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <link href="C:\Users\n0194142\Documents\repos\lessontwo\bootstrap-3.3.7\dist\fonts">
      <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
-     
+     <noscript> <img src="images/no js.gif" alt="Javascript not enabled" /></noscript>
      <h1 class="header">Hattie's Fried Chicken</h1>
  </head>
  <body>
@@ -35,11 +35,37 @@
             </div>
         
      <hr>
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>    
+              <div class="carousel-inner">
+                    <div class="item active">
+                        <img id="newlocal" src="images/newlocation.jpg" alt="First slide">
+                    </div>
+                     <div class="item">
+                        <img id:"seasonalmenu" src="images/seasonalmenu.jpg" alt="Second slide">
+                    </div>
+                      <div class="item">
+                        <img id="drinkofthemonth" src="images/drinkofthemonth.png" alt="Third slide">
+                    </div>
+                </div>
 
-     <div class= "jumbotron">
-            <h3 class="display-5">Check out our new location!
-                Coming to Portsmouth, NH! Fall 2017!</h3>
-     </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    
+                  </a>
+                </div>
+            </div>
+          </div>
+
+
      <div class= "container">
             <div class="row justify-content-md-center">
                     <div class="col col-md-auto">
@@ -54,7 +80,7 @@
             (French Quarter lounge is heated and open year-round. Courtyard is seasonal)</p>  
     </div>
     <hr>
-     
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
      </body>
 
      <div class="bottom-footer">
