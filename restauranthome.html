@@ -2,36 +2,65 @@
 <html>
  <head>
     <style>
-    p {background-color:bisque;}    
+    p {background-color:bisque;}  
+     
     </style>
+     
      <title>Home Page</title>
-     <link href="restaurantStyles.css" 
-     rel="stylesheet" 
-     type="text/css" />
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="bootstrap-3.3.7/dist/css/bootstrap.css.map" rel="stylesheet">
+     <link href="bootstrap-3.3.7/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+     <link href="bootstrap-3.3.7/dist/fonts/glyphicons-halflings-regular.svg">
+     <script src="jquery-3.2.1.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <link href="C:\Users\n0194142\Documents\repos\lessontwo\bootstrap-3.3.7\dist\fonts">
+     <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+     
      <h1 class="header">Hattie's Fried Chicken</h1>
  </head>
  <body>
    
      <hr>
-   
-     <a href="restauranthome.html">Home</a>
-     <a href="menu.html">Menu</a>
-     <a href="contactUS.html">Contact Us</a>
+            <div class="container">
+                <ul class="nav nav-pills">
+                        <li class="active"></li>
+                    <li><a href="restauranthome.html">
+                     <span class="glyphicon glyphicon-home"></a></span></a> </li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contactUS.html">Contact Us</a></li>
+                </ul>
+            </div>
+        
      <hr>
-     <p style="text-align: center"> <img src="images/restaurant.jpg" width="300" />
+
+     <div class= "jumbotron">
+            <h3 class="display-5">Check out our new location!
+                Coming to Portsmouth, NH! Fall 2017!</h3>
+     </div>
+     <div class= "container">
+            <div class="row justify-content-md-center">
+                    <div class="col col-md-auto">
+             <p style="text-align: center"> <img src="images/restaurant.jpg" width="300" />
+     </div>
+
+     <div class= "row">
+            <div class="row-md-9">
      <p>Hattie serves a variety of Southern and Louisiana cuisine, including our award winning famous Southern fried chicken.
             In addition to our main dining room we offer two other dining options: Our French Quarter lounge and the courtyard.
             The French Quarter lounge is perfect for dining, special occasions and late night bar.
-            (French Quarter lounge is heated and open year-round. Courtyard is seasonal)</p>
+            (French Quarter lounge is heated and open year-round. Courtyard is seasonal)</p>  
+    </div>
     <hr>
      
      </body>
-   
-     <div>
-   <footer class="footer">
+
+     <div class="bottom-footer">
+         <div class="col-md-auto">
                     <h5 style="text-align:center;">45 PHILA STREET, SARATOGA SPRINGS, NY 12866 </br>
-             1-800-455-6666
-             </footer>
+             1-800-455-6666 </h5>
     </div>
 
 

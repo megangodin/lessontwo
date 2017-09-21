@@ -8,7 +8,7 @@
     
 }
 
-#content,#navigation, #summary{
+#content, #navigation, #summary{
     padding: 0px;
     height: 100px;
     background-color: bisque;
@@ -40,3 +40,42 @@
     text-decoration: none;
   }
   
+  .nav-pills li {
+    margin-left: 20px;
+    font-size:18px
+} 
+
+.jumbotron{
+    color:red;
+    font-size: 15px;
+    background-color: bisque;
+    max-height: 200;
+    }
+
+.row-md-9 {
+    display: table-cell;
+    word-wrap: break-word;
+}
+
+.bottom-footer{
+    border-top: 1px solid gray;
+    margin-top: 0px;
+    padding-top: 7px;
+    color: black;
+    bottom: 0; 
+}
+span.glyphicon-home {font-size: 1.2em;
+
+}
+.glyphicon-glyphicon-home {font-size: 10}
+
+.glyphicon {
+    font-family: inherit;
+}
+.glyphicon:before{
+    font-family:'Glyphicons Halflings';
+}
+
+.nobr {
+    white-space: nowrap;
+}
